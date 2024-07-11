@@ -10,6 +10,10 @@ module.exports = {
         textColor: '#403833',
         customColor: '#FFEDE0',
       },
+      screens:{
+        mdScreen: '998px',
+
+      }
     },
   },
   plugins: [],
