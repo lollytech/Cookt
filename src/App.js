@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './Component/NavPageComponent/Nav'
 import Main from './Component/MainComponent/Main'
 import Menu from './Component/MenuComponent/Menu'
+import About from './Component/AboutComponent/About'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav/>
       <Main/>
       <Menu/>
+      <About/>
     </div>
   )
 }

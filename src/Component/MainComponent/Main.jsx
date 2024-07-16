@@ -6,7 +6,7 @@ import Button from '../ButtonComponent/Button';
 
 function Main() {
   return (
-    <div className=' flex flex-col md:flex-row h-full w-full justify-center align-middle gap-28 py-16 '>
+    <div className=' flex flex-row h-full w-full justify-center align-middle gap-28 py-16 lg:justify-around lg:gap-10'>
       
       <div className=' relative '>
       <img src={Burger} alt="" className='object-cover h-full' />
@@ -24,10 +24,10 @@ function Main() {
         <div className=' md:flex-row md:justify-center md:align-middle'>
           <h1 className='h-33 w-97 font-semibold text-textColor text-5xl'>Cookt</h1>
           <br />
-          <p>A Symphony of Flavors in Every Dish</p>
+          <p className=' text-18px '>A Symphony of Flavors in Every Dish</p>
           <br />
           <div className='py-16'>
-            <Button />
+            <Button text = 'Order Now' />
           </div>
         </div>
         <div className=' relative col col-span-2 '>

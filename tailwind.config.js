@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        '18px': '18px',
+        '18px': '22px',
       },
       colors: {
         textColor: '#403833',
@@ -13,6 +13,12 @@ module.exports = {
       screens:{
         mdScreen: '998px',
 
+      },
+      height:{
+        customHeight: '42rem',
+      },
+      width:{
+        customWidth: '42rem'
       }
     },
   },
