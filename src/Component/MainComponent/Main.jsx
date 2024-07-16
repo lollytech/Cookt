@@ -6,7 +6,7 @@ import Button from '../ButtonComponent/Button';
 
 function Main() {
   return (
-    <div className=' flex flex-row h-full w-full justify-center align-middle gap-28 py-16 '>
+    <div className=' flex flex-col md:flex-row h-full w-full justify-center align-middle gap-28 py-16 '>
       
       <div className=' relative '>
       <img src={Burger} alt="" className='object-cover h-full' />
