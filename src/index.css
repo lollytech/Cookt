@@ -7,6 +7,38 @@
 *{
   font-family: 'Epiloque', sans-serif;
   box-sizing: border-box;
-  background-color: #FFEDE0;
-  
+  background-color: #FFEDE0; 
+}
+
+
+
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .gap-28 {
+    gap: 1rem;
+  }
+
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .relative {
+    width: 100%;
+  }
+
+  .h-33 {
+    height: auto;
+  }
+
+  .w-97 {
+    width: 100%;
+  }
+
+  .py-16 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
