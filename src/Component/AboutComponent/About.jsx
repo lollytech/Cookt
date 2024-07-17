@@ -2,17 +2,17 @@ import React from 'react'
 import Button from '../ButtonComponent/Button'
 import Aboutimage from '../../Assests/Images/pexels-adrien-olichon-3534750 1.png'
 import Aboutsecond from '../../Assests/Images/pexels-aleksandra-platonova-2263510 1.png'
-
+import ArrowImage from '../../Assests/Images/Arrow 1.png'
 function About() {
   return (
     <div className=' h-full w-full flex flex-col justify-around items-center '>
-      <div>
+      <div className=' w-full text-left ml-72'>
       <h1 className= ' text-[3rem] text-textColor font-bold '>About</h1>
       </div>
       <br /><br />
       <div className=' grid grid-cols-3 justify-center gap-24 '>
         <div className=' w-[400px] h-[270px] items-center'>
-          <p className=' lin text-[18px] text-wrap text-textColor '>Embark on a culinary journey that seamlessly 
+          <p className=' leading-8  text-[20px] text-wrap text-textColor '>Embark on a culinary journey that seamlessly 
             fuses speed and flavor at our dining 
             destination. Indulge in a symphony of 
             delectable creations meticulously crafted for those 
@@ -33,6 +33,11 @@ function About() {
         <div className=' absolute top-16 left-8 border border-textColor h-[28rem] w-[20rem] '></div>
           <div className=' absolute mr-[208px] mb-[577px] z h-[481.44px] w-[321px] '>
             <img src= {Aboutsecond} alt="" /></div>
+            <div className='absolute top-[34rem] flex items-center space-x-2'>
+            <h5 className='text-textColor font-semibold'>Explore our gallery</h5>
+            <img src={ArrowImage} alt="" className='text-textColor w-[181px]'/> 
+          </div>
+            
           </div>
       </div>
     </div>
